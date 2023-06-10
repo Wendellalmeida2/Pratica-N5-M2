@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  height: 100vh;
+  background-color: rgb(108, 222, 214);
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  padding: 20px;
+}
+
+.table {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.btn-danger {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-color: rgb(40, 37, 37);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li::before {
+  content: '\2022';
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
